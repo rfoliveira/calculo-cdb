@@ -1,0 +1,16 @@
+<form [formGroup]="cdbForm" (ngSubmit)="simular()">
+    <div>
+        <label for="vlInicial">Valor inicial:</label>
+        <input type="number" formControlName="vlInicial" placeholder="1000">
+    </div>
+    
+    <div>
+        <label for="qtdMeses">Prazo (em meses):</label>
+        <input type="number" formControlName="qtdMeses" placeholder="12">
+    </div>
+    <button type="submit" [disabled]="!cdbForm.valid">Simular</button>
+</form>
+
+@if (showResults) {
+    <app-cdbresult [result]="cdbResult"></app-cdbresult>
+}

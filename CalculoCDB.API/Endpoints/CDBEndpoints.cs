@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace CalculoCDB.API.Endpoints;
 
-public static class CDBEndpoints
+public static class CdbEndpoints
 {
     public static void AddCDBEndpoints(this IEndpointRouteBuilder app)
     {

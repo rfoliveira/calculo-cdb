@@ -8,7 +8,6 @@ var app = builder.Build();
 
 app.CheckDevModeConfig(builder.Environment);
 
-app.UseHttpsRedirection();
 app.AddCDBEndpoints();
 
-app.Run();
+await app.RunAsync();

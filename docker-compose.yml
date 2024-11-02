@@ -1,0 +1,17 @@
+services:
+  cdbapi:
+    image: ${DOCKER_REGISTRY-}cdbapi
+    container_name: cdbapi
+    build:
+      context: .
+      dockerfile: CalculoCDB.API/Dockerfile
+    ports:
+      - "5000:8080"
+
+  # cdbapp:
+  #   image: node
+  #   container_name: cdbapp
+  #   command: ng serve
+  #   ports:
+  #     - "4200:4200"
+  

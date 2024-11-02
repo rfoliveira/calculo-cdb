@@ -5,8 +5,19 @@ namespace CalculoCDB.API;
 
 public static class Setup
 {
+    private const string CorsPolicyName = "CorsPolicy";
+
     public static IHostApplicationBuilder ConfigAPI(this IHostApplicationBuilder builder)
     {
+        builder.Services.AddCors(options =>
+        {
+            options.AddPolicy(CorsPolicyName, policy =>
+            {
+                policy.AllowAnyOrigin();
+                policy.WithMethods("GET");
+            });
+        });
+
         // Add services to the container.
         // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
         builder.Services.AddEndpointsApiExplorer();
@@ -26,5 +37,7 @@ public static class Setup
             app.UseSwagger();
             app.UseSwaggerUI();
         }
+
+        app.UseCors(CorsPolicyName);
     }
 }
