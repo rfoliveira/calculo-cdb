@@ -1,4 +1,4 @@
 <p>
-    Rendimento bruto: {{result.vlBruto}}<br>
-    Rendimento líquido: {{result.vlLiquido}}
+    Rendimento bruto: {{result.vlBruto | currency: 'BRL' : 'symbol': '4.2-2' : 'pt'}}<br>
+    Rendimento líquido: {{result.vlLiquido | currency: 'BRL' : 'symbol': '4.2-2' : 'pt'}}
 </p>

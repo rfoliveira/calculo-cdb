@@ -19,8 +19,8 @@ import { SimulacaoRequest } from '../../interfaces/simulacao-request';
 })
 export class HomeComponent {
   cdbForm = new FormGroup({
-    vlInicial: new FormControl(0, [Validators.required]),
-    qtdMeses: new FormControl(0, [Validators.required, Validators.min(1)])
+    vlInicial: new FormControl(null, [Validators.required]),
+    qtdMeses: new FormControl(null, [Validators.required, Validators.min(1)])
   })
   showResults: boolean = false
   cdbResult: SimulacaoResponse = {vlBruto: 0, vlLiquido: 0}
@@ -34,12 +34,12 @@ export class HomeComponent {
       qtdMeses: qtdMeses!
     }
 
-    this.cdbResult = {...this.service.calcular(payload)}
+    this.service.calcular(payload).subscribe(res => this.cdbResult = {...res})
     this.showResults = true
   }
 
   limpar() {
-    this.cdbForm.setValue({vlInicial: 0, qtdMeses: 0})
+    this.cdbForm.setValue({vlInicial: null, qtdMeses: null})
     this.showResults = false
   }
 }
