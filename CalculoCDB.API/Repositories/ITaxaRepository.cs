@@ -1,9 +1,10 @@
-﻿namespace CalculoCDB.API.Repositories;
-
-public interface ITaxaRepository
+﻿namespace CalculoCDB.API.Repositories
 {
-    int TB { get; }
-    decimal CDI { get; }
+    public interface ITaxaRepository
+    {
+        int TB { get; }
+        decimal CDI { get; }
 
-    decimal GetAliquotaIR(short prazo);
+        decimal GetAliquotaIR(short prazo);
+    }
 }

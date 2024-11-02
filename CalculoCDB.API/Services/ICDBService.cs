@@ -1,8 +1,10 @@
-﻿using CalculoCDB.API.DTOs;
+﻿using CalculoCDB.API.Models;
+using System.Threading.Tasks;
 
-namespace CalculoCDB.API.Services;
-
-public interface ICDBService
+namespace CalculoCDB.API.Services
 {
-    Task<RendimentoResponse> CalcularInvestimento(SimulacaoRequest simulacao);
+    public interface ICdbService
+    {
+        Task<RendimentoResponseModel> CalcularInvestimentoAsync(SimulacaoRequestModel simulacao);
+    }
 }
