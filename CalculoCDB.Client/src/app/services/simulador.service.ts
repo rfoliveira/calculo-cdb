@@ -9,11 +9,12 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class SimuladorService {
-  
+  apiUrl = environment.CDB_API_URL
+
   constructor(private readonly http: HttpClient) { }
 
   calcular(request: SimulacaoRequest): Observable<SimulacaoResponse> {
-    return this.http.get<SimulacaoResponse>(`${environment.CDB_API_URL}/calcular`, {
+    return this.http.get<SimulacaoResponse>(`${this.apiUrl}/calcular`, {
       params: {
         vlInicial: request.vlInicial, 
         qtdMeses: request.qtdMeses
