@@ -1,4 +1,5 @@
-﻿using CalculoCDB.API.Models;
+﻿using CalculoCDB.API.Exceptions;
+using CalculoCDB.API.Models;
 using CalculoCDB.API.Repositories;
 using System.Threading.Tasks;
 
@@ -15,6 +16,12 @@ namespace CalculoCDB.API.Services
 
         public async Task<RendimentoResponseModel> CalcularInvestimentoAsync(SimulacaoRequestModel simulacao)
         {
+            if (simulacao.VlInicial <= 0)
+                throw new ValorInicialException();
+
+            if (simulacao.QtdMeses <= 1)
+                throw new PrazoException();
+            
             var refJuros = 1 + (((decimal)_repo.TB) / 100) * (_repo.CDI / 100);
             var vlBruto = simulacao.VlInicial * refJuros;
             var qtdMesesAux = simulacao.QtdMeses;

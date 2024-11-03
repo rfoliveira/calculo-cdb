@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "C:\\git\\calculo-cdb\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2BBFF141-E170-4DA8-B881-23BE0EAC12AF}|CalculoCDB.API\\CalculoCDB.API.csproj|c:\\git\\calculo-cdb\\calculocdb.api\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2BBFF141-E170-4DA8-B881-23BE0EAC12AF}|CalculoCDB.API\\CalculoCDB.API.csproj|solutionrelative:calculocdb.api\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2BBFF141-E170-4DA8-B881-23BE0EAC12AF}|CalculoCDB.API\\CalculoCDB.API.csproj|c:\\git\\calculo-cdb\\calculocdb.api\\app_start\\formattersconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2BBFF141-E170-4DA8-B881-23BE0EAC12AF}|CalculoCDB.API\\CalculoCDB.API.csproj|solutionrelative:calculocdb.api\\app_start\\formattersconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AB721502-B7D1-4DA3-8CCE-A322C6E34877}|CalculoCDB.API.Tests\\CalculoCDB.API.Tests.csproj|c:\\git\\calculo-cdb\\calculocdb.api.tests\\controllers\\cdbcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB721502-B7D1-4DA3-8CCE-A322C6E34877}|CalculoCDB.API.Tests\\CalculoCDB.API.Tests.csproj|solutionrelative:calculocdb.api.tests\\controllers\\cdbcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2BBFF141-E170-4DA8-B881-23BE0EAC12AF}|CalculoCDB.API\\CalculoCDB.API.csproj|c:\\git\\calculo-cdb\\calculocdb.api\\controllers\\cdbcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2BBFF141-E170-4DA8-B881-23BE0EAC12AF}|CalculoCDB.API\\CalculoCDB.API.csproj|solutionrelative:calculocdb.api\\controllers\\cdbcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2BBFF141-E170-4DA8-B881-23BE0EAC12AF}|CalculoCDB.API\\CalculoCDB.API.csproj|c:\\git\\calculo-cdb\\calculocdb.api\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2BBFF141-E170-4DA8-B881-23BE0EAC12AF}|CalculoCDB.API\\CalculoCDB.API.csproj|solutionrelative:calculocdb.api\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AB721502-B7D1-4DA3-8CCE-A322C6E34877}|CalculoCDB.API.Tests\\CalculoCDB.API.Tests.csproj|c:\\git\\calculo-cdb\\calculocdb.api.tests\\services\\cdbservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB721502-B7D1-4DA3-8CCE-A322C6E34877}|CalculoCDB.API.Tests\\CalculoCDB.API.Tests.csproj|solutionrelative:calculocdb.api.tests\\services\\cdbservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BBFF141-E170-4DA8-B881-23BE0EAC12AF}|CalculoCDB.API\\CalculoCDB.API.csproj|c:\\git\\calculo-cdb\\calculocdb.api\\services\\cdbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BBFF141-E170-4DA8-B881-23BE0EAC12AF}|CalculoCDB.API\\CalculoCDB.API.csproj|solutionrelative:calculocdb.api\\services\\cdbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BBFF141-E170-4DA8-B881-23BE0EAC12AF}|CalculoCDB.API\\CalculoCDB.API.csproj|c:\\git\\calculo-cdb\\calculocdb.api\\validators\\greaterthanattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BBFF141-E170-4DA8-B881-23BE0EAC12AF}|CalculoCDB.API\\CalculoCDB.API.csproj|solutionrelative:calculocdb.api\\validators\\greaterthanattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BBFF141-E170-4DA8-B881-23BE0EAC12AF}|CalculoCDB.API\\CalculoCDB.API.csproj|c:\\git\\calculo-cdb\\calculocdb.api\\models\\simulacaorequestmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BBFF141-E170-4DA8-B881-23BE0EAC12AF}|CalculoCDB.API\\CalculoCDB.API.csproj|solutionrelative:calculocdb.api\\models\\simulacaorequestmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,54 +46,80 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FormattersConfig.cs",
-              "DocumentMoniker": "C:\\git\\calculo-cdb\\CalculoCDB.API\\App_Start\\FormattersConfig.cs",
-              "RelativeDocumentMoniker": "CalculoCDB.API\\App_Start\\FormattersConfig.cs",
-              "ToolTip": "C:\\git\\calculo-cdb\\CalculoCDB.API\\App_Start\\FormattersConfig.cs",
-              "RelativeToolTip": "CalculoCDB.API\\App_Start\\FormattersConfig.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T23:15:09.217Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Global.asax.cs",
-              "DocumentMoniker": "C:\\git\\calculo-cdb\\CalculoCDB.API\\Global.asax.cs",
-              "RelativeDocumentMoniker": "CalculoCDB.API\\Global.asax.cs",
-              "ToolTip": "C:\\git\\calculo-cdb\\CalculoCDB.API\\Global.asax.cs",
-              "RelativeToolTip": "CalculoCDB.API\\Global.asax.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABFAAAAAAAAAA==",
+              "Title": "CdbService.cs",
+              "DocumentMoniker": "C:\\git\\calculo-cdb\\CalculoCDB.API\\Services\\CdbService.cs",
+              "RelativeDocumentMoniker": "CalculoCDB.API\\Services\\CdbService.cs",
+              "ToolTip": "C:\\git\\calculo-cdb\\CalculoCDB.API\\Services\\CdbService.cs",
+              "RelativeToolTip": "CalculoCDB.API\\Services\\CdbService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T23:08:36.931Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "WebApiConfig.cs",
-              "DocumentMoniker": "C:\\git\\calculo-cdb\\CalculoCDB.API\\App_Start\\WebApiConfig.cs",
-              "RelativeDocumentMoniker": "CalculoCDB.API\\App_Start\\WebApiConfig.cs",
-              "ToolTip": "C:\\git\\calculo-cdb\\CalculoCDB.API\\App_Start\\WebApiConfig.cs",
-              "RelativeToolTip": "CalculoCDB.API\\App_Start\\WebApiConfig.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T23:08:28.575Z",
+              "WhenOpened": "2024-11-03T12:13:35.697Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "CdbServiceTests.cs",
+              "DocumentMoniker": "C:\\git\\calculo-cdb\\CalculoCDB.API.Tests\\Services\\CdbServiceTests.cs",
+              "RelativeDocumentMoniker": "CalculoCDB.API.Tests\\Services\\CdbServiceTests.cs",
+              "ToolTip": "C:\\git\\calculo-cdb\\CalculoCDB.API.Tests\\Services\\CdbServiceTests.cs",
+              "RelativeToolTip": "CalculoCDB.API.Tests\\Services\\CdbServiceTests.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAC0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T12:08:28.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GreaterThanAttribute.cs",
+              "DocumentMoniker": "C:\\git\\calculo-cdb\\CalculoCDB.API\\Validators\\GreaterThanAttribute.cs",
+              "RelativeDocumentMoniker": "CalculoCDB.API\\Validators\\GreaterThanAttribute.cs",
+              "ToolTip": "C:\\git\\calculo-cdb\\CalculoCDB.API\\Validators\\GreaterThanAttribute.cs",
+              "RelativeToolTip": "CalculoCDB.API\\Validators\\GreaterThanAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T02:48:59.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SimulacaoRequestModel.cs",
+              "DocumentMoniker": "C:\\git\\calculo-cdb\\CalculoCDB.API\\Models\\SimulacaoRequestModel.cs",
+              "RelativeDocumentMoniker": "CalculoCDB.API\\Models\\SimulacaoRequestModel.cs",
+              "ToolTip": "C:\\git\\calculo-cdb\\CalculoCDB.API\\Models\\SimulacaoRequestModel.cs",
+              "RelativeToolTip": "CalculoCDB.API\\Models\\SimulacaoRequestModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T02:44:27.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CdbControllerTests.cs",
+              "DocumentMoniker": "C:\\git\\calculo-cdb\\CalculoCDB.API.Tests\\Controllers\\CdbControllerTests.cs",
+              "RelativeDocumentMoniker": "CalculoCDB.API.Tests\\Controllers\\CdbControllerTests.cs",
+              "ToolTip": "C:\\git\\calculo-cdb\\CalculoCDB.API.Tests\\Controllers\\CdbControllerTests.cs",
+              "RelativeToolTip": "CalculoCDB.API.Tests\\Controllers\\CdbControllerTests.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAYwDUAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T23:43:02.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "CdbController.cs",
               "DocumentMoniker": "C:\\git\\calculo-cdb\\CalculoCDB.API\\Controllers\\CdbController.cs",
               "RelativeDocumentMoniker": "CalculoCDB.API\\Controllers\\CdbController.cs",
               "ToolTip": "C:\\git\\calculo-cdb\\CalculoCDB.API\\Controllers\\CdbController.cs",
               "RelativeToolTip": "CalculoCDB.API\\Controllers\\CdbController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T23:06:00.191Z",
+              "WhenOpened": "2024-11-02T23:35:02.246Z",
               "EditorCaption": ""
             }
           ]

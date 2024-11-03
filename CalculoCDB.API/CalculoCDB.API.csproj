@@ -125,6 +125,8 @@
     <Compile Include="App_Start\FormattersConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\CdbController.cs" />
+    <Compile Include="Exceptions\PrazoException.cs" />
+    <Compile Include="Exceptions\ValorInicialException.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -135,6 +137,7 @@
     <Compile Include="Repositories\TaxaRepository.cs" />
     <Compile Include="Services\CdbService.cs" />
     <Compile Include="Services\ICdbService.cs" />
+    <Compile Include="Validators\GreaterThanAttribute.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Dockerfile" />

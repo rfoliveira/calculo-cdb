@@ -5,7 +5,7 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculoCDB.API", "CalculoCDB.API\CalculoCDB.API.csproj", "{2BBFF141-E170-4DA8-B881-23BE0EAC12AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculoCDB.API.Tests", "CalculoCDB.API.Tests\CalculoCDB.API.Tests.csproj", "{A8F78066-3DD8-4DB8-BBA0-D0333442A96A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculoCDB.API.Tests", "CalculoCDB.API.Tests\CalculoCDB.API.Tests.csproj", "{AB721502-B7D1-4DA3-8CCE-A322C6E34877}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{2BBFF141-E170-4DA8-B881-23BE0EAC12AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2BBFF141-E170-4DA8-B881-23BE0EAC12AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2BBFF141-E170-4DA8-B881-23BE0EAC12AF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A8F78066-3DD8-4DB8-BBA0-D0333442A96A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A8F78066-3DD8-4DB8-BBA0-D0333442A96A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A8F78066-3DD8-4DB8-BBA0-D0333442A96A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A8F78066-3DD8-4DB8-BBA0-D0333442A96A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB721502-B7D1-4DA3-8CCE-A322C6E34877}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB721502-B7D1-4DA3-8CCE-A322C6E34877}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB721502-B7D1-4DA3-8CCE-A322C6E34877}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB721502-B7D1-4DA3-8CCE-A322C6E34877}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
