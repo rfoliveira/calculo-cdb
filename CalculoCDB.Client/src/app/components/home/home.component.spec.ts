@@ -8,9 +8,7 @@ describe('HomeComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [
-        HomeComponent
-      ]
+      imports: [HomeComponent]
     })
     .compileComponents();
     
@@ -22,5 +20,4 @@ describe('HomeComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
-  
 });

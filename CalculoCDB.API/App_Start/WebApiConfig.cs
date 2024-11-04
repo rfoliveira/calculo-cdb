@@ -1,4 +1,5 @@
 ﻿using System.Web.Http;
+using System.Web.Http.Cors;
 
 namespace CalculoCDB.API
 {
@@ -16,6 +17,9 @@ namespace CalculoCDB.API
                 routeTemplate: "api/{controller}/{id}",
                 defaults: new { id = RouteParameter.Optional }
             );
+
+            EnableCorsAttribute cors = new EnableCorsAttribute("*", "*", "GET");
+            config.EnableCors(cors);
         }
     }
 }

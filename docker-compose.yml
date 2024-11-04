@@ -8,10 +8,4 @@ services:
     ports:
       - "5000:80"
 
-  # cdbapp:
-  #   image: node
-  #   container_name: cdbapp
-  #   command: ng serve
-  #   ports:
-  #     - "4200:4200"
   

@@ -23,7 +23,7 @@ export class HomeComponent {
     qtdMeses: new FormControl(null, [Validators.required, Validators.min(1)])
   })
   showResults: boolean = false
-  cdbResult: SimulacaoResponse = {vlBruto: 0, vlLiquido: 0}
+  cdbResult: SimulacaoResponse = {VlBruto: 0, VlLiquido: 0}  
 
   constructor(private readonly service: SimuladorService) { }
     
@@ -34,7 +34,11 @@ export class HomeComponent {
       qtdMeses: qtdMeses!
     }
 
-    this.service.calcular(payload).subscribe(res => this.cdbResult = {...res})
+    this.service.calcular(payload).subscribe(res => {
+        console.log('retorno do service', res)
+        this.cdbResult = {...res}
+        console.log('this.cdbResult', this.cdbResult)
+    })
     this.showResults = true
   }
 

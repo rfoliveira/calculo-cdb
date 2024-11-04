@@ -1,4 +1,4 @@
 export interface SimulacaoResponse {
-    vlBruto: number
-    vlLiquido: number
+    VlBruto: number
+    VlLiquido: number
 }
